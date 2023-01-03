@@ -1,7 +1,7 @@
-/* .header {
-
-    height: 400px;
-} */
+.header {
+    font-weight: 900;
+    text-align: center;
+}
 .body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -16,15 +16,11 @@
     width: 50%;
     
 }
-.title {
-    
-    font-weight: 900;
-    text-align: center;
-}
+
 
 h1 {
     font-size: 50px;
-}
+}                           
 
 h2 {
 
@@ -33,6 +29,25 @@ h2 {
 p {
     font-size: 25px;
 }
-/* .footer {
-    text-align: center;
-} */
+
+
+
+nav ul{
+    display: flex; 
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0 5px;
+}
+
+nav li:hover {
+    background-color: lightgray;
+    
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
